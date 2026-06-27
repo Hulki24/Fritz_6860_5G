@@ -124,9 +124,9 @@ class Fritz5GCoordinator(DataUpdateCoordinator[dict]):
             return data
 
         except Exception as err:
-
-            raise UpdateFailed(err) from err
-        def _parse_lte(
+                    raise UpdateFailed(err) from err
+            
+    def _parse_lte(
         self,
         cell: ET.Element,
         data: dict,
