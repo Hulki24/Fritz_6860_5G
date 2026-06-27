@@ -1,1 +1,15 @@
-
+{
+  "domain": "fritz_5g",
+  "name": "FRITZ! 6860 5G",
+  "version": "0.1.0",
+  "documentation": "https://github.com/Hulki24/Fritz_6860_5G",
+  "issue_tracker": "https://github.com/Hulki24/Fritz_6860_5G/issues",
+  "requirements": [
+    "fritzconnection>=1.15.1"
+  ],
+  "codeowners": [
+    "@Hulki24"
+  ],
+  "config_flow": true,
+  "iot_class": "local_polling"
+}
