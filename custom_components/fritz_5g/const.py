@@ -1,8 +1,10 @@
-DOMAIN = "fritz_5g"
+from homeassistant.const import (
+    CONF_HOST,
+    CONF_USERNAME,
+    CONF_PASSWORD,
+)
 
-CONF_HOST = "host"
-CONF_USER = "user"
-CONF_PASSWORD = "password"
+DOMAIN = "fritz_5g"
 
 DEFAULT_HOST = "fritz.box"
 
