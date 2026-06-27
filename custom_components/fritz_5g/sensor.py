@@ -92,9 +92,6 @@ class Fritz5GSensor(CoordinatorEntity, SensorEntity):
     @property
     def device_info(self):
         """Geräteinformationen."""
-
-        "via_device": None,
-
         return {
             "identifiers": {
                 (DOMAIN, "fritz_6860_5g")
