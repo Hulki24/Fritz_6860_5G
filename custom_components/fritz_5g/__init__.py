@@ -12,10 +12,12 @@ async def async_setup(hass: HomeAssistant, config):
     return True
 
 
-async def async_setup_entry(
+async def async_setup(
     hass: HomeAssistant,
-    entry: ConfigEntry,
-):
+    config: dict,
+) -> bool:
+    return True
+    
     coordinator = Fritz5GCoordinator(
         hass,
         entry.data,
