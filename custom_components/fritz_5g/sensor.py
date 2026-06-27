@@ -1,9 +1,7 @@
 from __future__ import annotations
 
-from homeassistant.components.sensor import (
-    SensorEntity,
-    SensorDeviceClass,
-)
+from homeassistant.components.sensor import SensorEntity
+
 from homeassistant.const import (
     SIGNAL_STRENGTH_DECIBELS_MILLIWATT,
 )
