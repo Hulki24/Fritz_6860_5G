@@ -49,7 +49,7 @@ class Fritz5GCoordinator(DataUpdateCoordinator[dict]):
                 seconds=DEFAULT_SCAN_INTERVAL
             ),
         )
-      async def _async_update_data(self) -> dict:
+    async def _async_update_data(self) -> dict:
         """Liest die Daten der FRITZ!Box."""
 
         return await self.hass.async_add_executor_job(
