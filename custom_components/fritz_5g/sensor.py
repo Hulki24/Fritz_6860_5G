@@ -88,6 +88,10 @@ class Fritz5GSensor(CoordinatorEntity, SensorEntity):
         """Sensor verfügbar."""
 
         return self.coordinator.last_update_success
+        
+    @property
+    def should_poll(self):
+        return False
 
     @property
     def device_info(self):
