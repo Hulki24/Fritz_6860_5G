@@ -97,9 +97,7 @@ class Fritz5GSensor(CoordinatorEntity, SensorEntity):
     def device_info(self):
         """Geräteinformationen."""
         return {
-            "identifiers": {
-                (DOMAIN, "fritz_6860_5g")
-            },
+            "identifiers": {(DOMAIN, "fritz_6860_5g")},
             "manufacturer": "AVM",
             "model": "FRITZ!Box 6860 5G",
             "name": "FRITZ!Box 6860 5G",
